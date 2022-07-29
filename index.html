@@ -1,14 +1,76 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>A Garota da Prata</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-
+<style>
+  .navbar{ background: #c2566d;}
+  .nav-link , .navbar-brand{ color: #e8bbc3; cursor: pointer; align-items: flex-start; }
+  .nav-link{ margin-right: 1px}
+  .nav-link:hover{ background: #e8bbc3; color: #c2566d; }
+  .navbar-collapse{ justify-content: flex-start;}
+  .navbar-toggler{  background:#f6e5e5 }
+</style>
 <body>
+  <nav class="navbar navbar-expand-lg fixed-top"> 
 
+    <a class="navbar-brand" href="#">
+      <figure>
+        <img src="images/logoblacksmall.png">
+      </figure>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSup" aria-controls="navbarSup" aria-expanded="false" aria-label="Toggle navigation"> 
+
+      <span class="navbar-toggler-icon"></span>
+
+    </button>
+
+    <div class="collapse navbar-collapse " id="navbarSup">
+
+        <ul class="navbar-nav mr-4">
+
+          <li class="nav-item">
+
+            <a class="nav-link" data-value="sobrenos" href="#">Sobre Nós</a>
+
+          </li> 
+
+          <li class="nav-item">
+
+            <a class="nav-link " data-value="servico"href="#">Serviços</a>   
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link " data-value="noticia" href="#">Notícias</a>         
+        
+          </li>  
+
+          <li class="nav-item"> 
+
+            <a class="nav-link " data-value="equipe" href="#">Equipe</a>       
+            
+          </li> 
+
+          <li class="nav-item">
+
+            <a class="nav-link " data-value="contato" href="#">Contato</a>       
+        
+          </li>
+        </ul>
+    </div>
+</nav>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
 </body>
 
 </html>
