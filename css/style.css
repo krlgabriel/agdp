@@ -1,11 +1,13 @@
+
+
 .navbar{ background: #c2566d;}
 
-.nav-link , .navbar-brand{ color: #e8bbc3; cursor: pointer; align-items: flex-start; }
+.nav-link , .navbar-brand{ color: #e8bbc3; cursor: pointer;}
 
 .nav-link{ margin-right: 1px}
 
 .nav-link:hover{ background: #e8bbc3; color: #c2566d; }
 
-.navbar-collapse{ justify-content: flex-start;}
+.navbar-collapse{ justify-content: flex-end;}
 
 .navbar-toggler{  background:#f6e5e5 }
